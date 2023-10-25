@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    /* border: 2px black dotted; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    min-width: 100%;
+    border: 2px black dotted;
+    pointer-events: all;
+    display: flex;
+    padding: 2vw 5vw;
+    padding-right: 0;
+    align-items: center;
+    margin-right: 0;
+    
+}
+#nav a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+#nleft{
+   display: flex;
+   align-items: center;
+   gap : 15vw;
+   letter-spacing: 3px;
+   
+}
+#slider{
+    /* width: 100%; */
+    height: 45vh;
+    border: 2px black dotted;
+    /* border:2px solid; */
+}
